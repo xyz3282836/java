@@ -129,3 +129,50 @@ final方法编译器会调用更加有效的代码，但是对性能提升不会
 接口可以extends多个接口
 
 工厂设计模式
+
+# 10.内部类
+
+
+
+# 11.持有对象
+
+collection下有set和list
+
+set：不能重复元素
+
+list：有顺序
+
+treemap、treeset 比较结果升序排列
+
+linkedhashset、linkedlist、linkedhashmap、arraylist插入顺序排列
+
+hashset、hashmap不关心顺序排序
+
+
+
+LinkedList
+
+getFirst() element() ; peek()
+
+removeFirst() remove() ; poll()
+
+addFirst()
+
+offer() add() addLast() 
+
+removeLast()
+
+quene可以用linkedList实现
+
+### 栈
+
+addLast();
+
+LinkedList可以直接作为栈使用
+
+### 队列
+
+peek();poll();offer();
+
+Queue queue = new LinkedList<Integer>();
+
